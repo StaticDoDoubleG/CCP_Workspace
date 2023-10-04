@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "or_2_behav" "xil_defaultlib.or_2" -log "elaborate.log" 
