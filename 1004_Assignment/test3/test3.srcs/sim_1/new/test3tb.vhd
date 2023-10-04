@@ -46,20 +46,20 @@ begin
   UUT : or_4bits port map(a => a, b => b, y => y);
     stimulus: process
     begin
-        a <= "0000";
+        a <= "0011";
+        b <= "0101";
+        wait for 10ns;
+        a <= "0010";
         b <= "0000";
-        wait for 10 ns;
-        a <= "0001";
-        b <= "0000";
-        wait for 10 ns;
-        a <= "0000";
+        wait for 10ns;
+        a <= "0010";
         b <= "0001";
-        wait for 10 ns;
-        a <= "0001";
-        b <= "0001";
-        wait for 10 ns;
-        a <= "0000";
+        wait for 10ns;
+        a <= "0011";
         b <= "0000";
+        wait for 10ns;
+        a <= "0011";
+        b <= "0001";
         wait;
     end process;
 end Behavioral;

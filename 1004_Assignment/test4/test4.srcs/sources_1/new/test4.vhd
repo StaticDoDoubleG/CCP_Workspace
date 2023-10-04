@@ -1,43 +1,12 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 2023/10/04 13:59:23
--- Design Name: 
--- Module Name: test4 - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
-
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
-entity test4 is
---  Port ( );
-end test4;
-
-architecture Behavioral of test4 is
-
+library ieee;
+use ieee.std_logic_1164.all;
+entity andor_2 is
+port( a, b, c : in std_logic;
+y : out std_logic);
+end andor_2;
+architecture a of andor_2 is
+signal t : std_logic;
 begin
-
-
-end Behavioral;
+t<=a and b;
+y<=t or c;
+end a;

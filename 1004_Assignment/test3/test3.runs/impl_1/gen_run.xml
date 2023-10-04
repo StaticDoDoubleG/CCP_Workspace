@@ -18,10 +18,14 @@
   <File Type="BITSTR-MMI" Name="or_4bits.mmi"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="or_4bits_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-SYSDEF" Name="or_4bits.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="or_4bits_methodology_drc_routed.pb"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="or_4bits.ltx"/>
+  <File Type="BOOT-PDI-FILE" Name="or_4bits_soc.pdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="NPI_FILE" Name="or_4bits.npi"/>
   <File Type="OPT-DRC" Name="or_4bits_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="or_4bits.rbd"/>
   <File Type="OPT-HWDEF" Name="or_4bits.hwdef"/>
   <File Type="PLACE-IO" Name="or_4bits_io_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="or_4bits_utilization_placed.rpt"/>
@@ -55,17 +59,13 @@
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="or_4bits_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="or_4bits_bus_skew_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="or_4bits_bus_skew_postroute_physopted.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="or_4bits_methodology_drc_routed.pb"/>
   <File Type="ROUTE-DRC-RPX" Name="or_4bits_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="or_4bits_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="or_4bits.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="or_4bits_soc.pdi"/>
   <File Type="PL-PDI-FILE" Name="or_4bits_pld.pdi"/>
   <File Type="RCFI_FILE" Name="or_4bits.rcfi"/>
   <File Type="CFI_FILE" Name="or_4bits.cfi"/>
   <File Type="RNPI_FILE" Name="or_4bits.rnpi"/>
-  <File Type="NPI_FILE" Name="or_4bits.npi"/>
-  <File Type="RBD_FILE" Name="or_4bits.rbd"/>
   <File Type="ROUTE-RQS" Name="or_4bits_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="or_4bits_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
