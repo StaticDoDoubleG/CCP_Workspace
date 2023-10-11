@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct 11 11:13:33 2023
+# Process ID: 8712
+# Current directory: C:/Users/1214/32w604e/Full_Adder/Full_Adder.runs/impl_1
+# Command line: vivado.exe -log Full_Adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Full_Adder.tcl -notrace
+# Log file: C:/Users/1214/32w604e/Full_Adder/Full_Adder.runs/impl_1/Full_Adder.vdi
+# Journal file: C:/Users/1214/32w604e/Full_Adder/Full_Adder.runs/impl_1\vivado.jou
+# Running On: DESKTOP-634UJK9, OS: Windows, CPU Frequency: 4008 MHz, CPU Physical cores: 4, Host memory: 34255 MB
+#-----------------------------------------------------------
+source Full_Adder.tcl -notrace
